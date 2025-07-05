@@ -1,0 +1,82 @@
+.App {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.url_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input_group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input_group input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.remove_btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add_btn {
+  padding: 8px 12px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit_btn {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#send_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.show_links {
+  margin-top: 30px;
+}
+
+.result_card {
+  margin-bottom: 20px;
+}
+
+.qr_img {
+  width: 150px;
+  height: auto;
+}
+
+.link_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
